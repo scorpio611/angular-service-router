@@ -11,6 +11,8 @@ import {LoginStep2Component} from './login-step2/login-step2.component';
 import {LoginStep1Component} from './login-step1/login-step1.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {TimelinesComponent} from './timelines/timelines.component';
+import {YoutubePlaylistComponent} from './youtube-playlist/youtube-playlist.component';
+import {YoutubePlayerComponent} from './youtube-player/youtube-player.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {TimelinesComponent} from './timelines/timelines.component';
     DictionaryDetailComponent,
     LoginStep2Component,
     LoginStep1Component,
-    TimelinesComponent
+    TimelinesComponent,
+    YoutubePlaylistComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     BrowserModule,
